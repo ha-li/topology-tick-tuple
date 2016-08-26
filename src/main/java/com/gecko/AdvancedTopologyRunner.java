@@ -12,8 +12,9 @@ public class AdvancedTopologyRunner {
 
     private static String TOPOLOGY_NAME = "Advanced-Topology";
 
-    private static int FIVE_SECS = 60 * 1000;
-    private static int SLEEP_CYCLE = FIVE_SECS;
+    private static int FIVE_SECS = 5 * 1000;
+    private static int ONE_MIN = 60 * 1000;
+    private static int SLEEP_CYCLE = ONE_MIN;
 
     public static void main(String[] args) {
 
